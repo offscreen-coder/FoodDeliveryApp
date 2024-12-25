@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+header {
+    background-image:linear-gradient(to right , rgba(255,0,0,0),rgba(255,0,0,1));
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+}
+header div {
+    margin-left:250px;
+}
+header div img{
+    border-radius:100%;
+    width:100px;
+    height:100px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ff5733;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-image: url('food2.jpg'); 
+    height:450px;
+    color: white;
+}
+.hero h1 {
+    font-size:48px;
+}
+.hero p {
+    font-size: 24px;
+}
+.cta-button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.cta-button:hover {
+    background-color: #ff5733;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color:beige;
+}
+.feature {
+    text-align: center;
+    width: 300px;
+}
+.feature img {
+    width: 100px;
+    height: 100px;
+}
+.feature h3 {
+    margin-top: 20px;
+}
+.about{
+    padding: 20px;
+    background-color: #f7f7f7;
+    margin:10px;
+    border-radius: 5px;
+    background-color: #333;
+    color:#ccc;
+}
+.about h2, .contact h2 {
+    text-align: center;
+    color: #ff6f61;
+}
+.contact {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color:bisque;
+}
+.contact form {
+    display: flex;
+    flex-direction:column;
+    width: 400px;
+    margin-left: 450px;  
+}
+.contact form label {
+    margin: 10px;
+}
+.contact form input, .contact form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.contact form button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact form button:hover {
+    background-color: #ff5733;
+} 
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
